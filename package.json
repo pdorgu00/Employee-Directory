@@ -1,29 +1,30 @@
 {
-  "name": "employee-directory",
+  "name": "reactpractice",
   "version": "0.1.0",
   "private": true,
-  "engines":{
-    "node":"10.16.3",
-    "npm":"6.9.0"
+  "engines": {
+    "node" : "10.16.3",
+    "npm": "6.9.0"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
-    "react": "^16.13.0",
-    "react-bootstrap": "^1.0.0-beta.17",
-    "react-data-grid": "^7.0.0-alpha.29",
-    "react-dom": "^16.13.0",
+    "bootstrap": "^4.4.1",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
-    "shards-react": "^1.0.3"
+    "react-table": "^7.0.0",
+    "react-table-v6": "^6.8.6"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "compile": "tsc"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,8 +40,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "case-sensitive-paths-webpack-plugin": "^2.3.0"
   }
 }
